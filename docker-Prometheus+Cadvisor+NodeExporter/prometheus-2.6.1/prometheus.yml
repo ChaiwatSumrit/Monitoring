@@ -1,0 +1,116 @@
+# my global config
+global:
+  external_labels: 
+    monitor: my-monitor
+  scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  # scrape_timeout is set to the global default (10s).
+
+
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+  - static_configs:
+    - targets:
+      - alertmanager:9093
+
+# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+rule_files:
+  - "elasticsearch.rules.yml"
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: 'prometheus'
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+    static_configs:
+    - targets: ['localhost:9090']
+
+  - job_name: 'node-exporter'
+    static_configs:
+    - targets: ['node-exporter:9100']
+      labels:
+        group: 'node-exporter'
+
+  - job_name: 'cadvisor'
+    # scrape_interval: 10s
+    # metrics_path: '/metrics'
+    static_configs:
+    - targets: ['cadvisor:8080']
+      labels:
+        group: 'cadvisor'
+
+  # - job_name: 'fluentd_exporter'
+  #   static_configs:
+  #   - targets: ['fluentd_exporter:9309']
+  #     labels:
+  #       group: 'fluentd_exporter'
+
+  # - job_name: 'elasticsearch_exporter'
+  #   static_configs:
+  #   - targets: ['elasticsearch_exporter:9108']
+  #     labels:
+  #       group: 'elasticsearch_exporter'
+
+
+
+
+
+  - job_name: 'peer0.org1.example.com'
+    static_configs:
+    - targets: ['peer0.org1.example.com:9443']
+      labels:
+        group: 'hyperledger-fabric_metrics_section'
+ 
+  - job_name: 'peer0.org2.example.com'
+    static_configs:
+    - targets: ['peer0.org2.example.com:9443']
+      labels:
+        group: 'hyperledger-fabric_metrics_section'
+
+  - job_name: 'peer0.org4.example.com'
+    static_configs:
+    - targets: ['peer0.org4.example.com:9443']
+      labels:
+        group: 'hyperledger-fabric_metrics_section'
+  
+  
+  # - job_name: 'docker1'
+  #   # scrape_interval: 10s
+  #   static_configs:
+  #   # - targets: ['127.0.0.1:9999']
+  #   - targets: ['0.0.0.0:9999','localhost:9999']
+  #     labels:
+  #       group: 'docker1'
+
+
+
+  # - job_name: 'node-exporter'
+  #   static_configs:
+  #   - targets: ['localhost:80']
+          
+
+# global: 
+#   external_labels: 
+#     monitor: test-monitor
+#   scrape_interval: 5s
+# scrape_configs: 
+#   - 
+#     job_name: prometheus
+#     static_configs: 
+#       - 
+#         targets: 
+#           - "localhost:9090"
+
+
+
+# {
+
+#   "experimental": true,
+#   "metrics-addr": "0.0.0.0:9999"
+# }

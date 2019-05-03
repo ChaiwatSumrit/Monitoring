@@ -1,0 +1,1285 @@
+[2019-02-26T10:04:53,990][INFO ][o.e.e.NodeEnvironment    ] [Brain_node_1] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [111.2gb], net total_space [147.5gb], types [ext4]
+[2019-02-26T10:04:54,025][INFO ][o.e.e.NodeEnvironment    ] [Brain_node_1] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-02-26T10:04:54,614][INFO ][o.e.n.Node               ] [Brain_node_1] node name [Brain_node_1], node ID [l1FT7zEGS961eHlvQ7BXDQ]
+[2019-02-26T10:04:54,615][INFO ][o.e.n.Node               ] [Brain_node_1] version[6.5.4], pid[8985], build[default/tar/d2ef93d/2018-12-17T21:17:40.758843Z], OS[Linux/4.15.0-45-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-02-26T10:04:54,615][INFO ][o.e.n.Node               ] [Brain_node_1] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.lKh75vc6, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/best/Downloads/elasticsearch-6.5.4, -Des.path.conf=/home/best/Downloads/elasticsearch-6.5.4/config, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+[2019-02-26T10:04:56,876][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [aggs-matrix-stats]
+[2019-02-26T10:04:56,876][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [analysis-common]
+[2019-02-26T10:04:56,876][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [ingest-common]
+[2019-02-26T10:04:56,877][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [lang-expression]
+[2019-02-26T10:04:56,877][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [lang-mustache]
+[2019-02-26T10:04:56,877][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [lang-painless]
+[2019-02-26T10:04:56,877][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [mapper-extras]
+[2019-02-26T10:04:56,877][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [parent-join]
+[2019-02-26T10:04:56,877][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [percolator]
+[2019-02-26T10:04:56,877][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [rank-eval]
+[2019-02-26T10:04:56,878][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [reindex]
+[2019-02-26T10:04:56,878][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [repository-url]
+[2019-02-26T10:04:56,878][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [transport-netty4]
+[2019-02-26T10:04:56,878][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [tribe]
+[2019-02-26T10:04:56,878][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-ccr]
+[2019-02-26T10:04:56,878][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-core]
+[2019-02-26T10:04:56,878][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-deprecation]
+[2019-02-26T10:04:56,878][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-graph]
+[2019-02-26T10:04:56,879][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-logstash]
+[2019-02-26T10:04:56,879][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-ml]
+[2019-02-26T10:04:56,879][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-monitoring]
+[2019-02-26T10:04:56,879][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-rollup]
+[2019-02-26T10:04:56,879][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-security]
+[2019-02-26T10:04:56,879][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-sql]
+[2019-02-26T10:04:56,879][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-upgrade]
+[2019-02-26T10:04:56,879][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-watcher]
+[2019-02-26T10:04:56,880][INFO ][o.e.p.PluginsService     ] [Brain_node_1] no plugins loaded
+[2019-02-26T10:05:00,334][INFO ][o.e.x.s.a.s.FileRolesStore] [Brain_node_1] parsed [0] roles from file [/home/best/Downloads/elasticsearch-6.5.4/config/roles.yml]
+[2019-02-26T10:05:00,964][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [Brain_node_1] [controller/9064] [Main.cc@109] controller (64 bit): Version 6.5.4 (Build b616085ef32393) Copyright (c) 2018 Elasticsearch BV
+[2019-02-26T10:05:01,467][DEBUG][o.e.a.ActionModule       ] [Brain_node_1] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-02-26T10:05:01,711][INFO ][o.e.d.DiscoveryModule    ] [Brain_node_1] using discovery type [zen] and host providers [settings]
+[2019-02-26T10:05:02,410][INFO ][o.e.n.Node               ] [Brain_node_1] initialized
+[2019-02-26T10:05:02,411][INFO ][o.e.n.Node               ] [Brain_node_1] starting ...
+[2019-02-26T10:05:02,587][INFO ][o.e.t.TransportService   ] [Brain_node_1] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-02-26T10:05:02,649][WARN ][o.e.b.BootstrapChecks    ] [Brain_node_1] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-02-26T10:05:05,716][INFO ][o.e.c.s.MasterService    ] [Brain_node_1] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {Brain_node_1}{l1FT7zEGS961eHlvQ7BXDQ}{UZ8gFo4kT-ukFEDzgrvMRA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8242008064, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-02-26T10:05:05,721][INFO ][o.e.c.s.ClusterApplierService] [Brain_node_1] new_master {Brain_node_1}{l1FT7zEGS961eHlvQ7BXDQ}{UZ8gFo4kT-ukFEDzgrvMRA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8242008064, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {Brain_node_1}{l1FT7zEGS961eHlvQ7BXDQ}{UZ8gFo4kT-ukFEDzgrvMRA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8242008064, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-02-26T10:05:05,787][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [Brain_node_1] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-02-26T10:05:05,787][INFO ][o.e.n.Node               ] [Brain_node_1] started
+[2019-02-26T10:05:06,629][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [Brain_node_1] Failed to clear cache for realms [[]]
+[2019-02-26T10:05:06,693][INFO ][o.e.l.LicenseService     ] [Brain_node_1] license [1c689fcd-9813-490e-aed1-1f2e575ca845] mode [basic] - valid
+[2019-02-26T10:05:06,707][INFO ][o.e.g.GatewayService     ] [Brain_node_1] recovered [9] indices into cluster_state
+[2019-02-26T10:05:10,003][INFO ][o.e.c.r.a.AllocationService] [Brain_node_1] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana_1][0]] ...]).
+[2019-02-26T10:36:49,245][INFO ][o.e.c.m.MetaDataCreateIndexService] [Brain_node_1] [logstash-2019.02.26] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-02-26T10:36:49,669][INFO ][o.e.c.m.MetaDataMappingService] [Brain_node_1] [logstash-2019.02.26/SxeRsxrhTOuWB10B5DrLfA] create_mapping [fluentd]
+[2019-02-26T12:18:55,064][INFO ][o.e.x.m.j.p.NativeController] [Brain_node_1] Native controller process has stopped - no new native processes can be started
+[2019-02-26T12:18:55,107][INFO ][o.e.n.Node               ] [Brain_node_1] stopping ...
+[2019-02-26T12:18:55,131][INFO ][o.e.x.w.WatcherService   ] [Brain_node_1] stopping watch service, reason [shutdown initiated]
+[2019-02-26T12:18:55,543][INFO ][o.e.n.Node               ] [Brain_node_1] stopped
+[2019-02-26T12:18:55,543][INFO ][o.e.n.Node               ] [Brain_node_1] closing ...
+[2019-02-26T12:18:55,555][INFO ][o.e.n.Node               ] [Brain_node_1] closed
+[2019-02-26T12:48:21,866][INFO ][o.e.e.NodeEnvironment    ] [Brain_node_1] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [110.8gb], net total_space [147.5gb], types [ext4]
+[2019-02-26T12:48:21,868][INFO ][o.e.e.NodeEnvironment    ] [Brain_node_1] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-02-26T12:48:21,924][INFO ][o.e.n.Node               ] [Brain_node_1] node name [Brain_node_1], node ID [l1FT7zEGS961eHlvQ7BXDQ]
+[2019-02-26T12:48:21,925][INFO ][o.e.n.Node               ] [Brain_node_1] version[6.5.4], pid[19598], build[default/tar/d2ef93d/2018-12-17T21:17:40.758843Z], OS[Linux/4.15.0-45-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-02-26T12:48:21,925][INFO ][o.e.n.Node               ] [Brain_node_1] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.yrmJZHOU, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/best/Downloads/elasticsearch-6.5.4, -Des.path.conf=/home/best/Downloads/elasticsearch-6.5.4/config, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+[2019-02-26T12:48:23,497][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [aggs-matrix-stats]
+[2019-02-26T12:48:23,498][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [analysis-common]
+[2019-02-26T12:48:23,498][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [ingest-common]
+[2019-02-26T12:48:23,498][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [lang-expression]
+[2019-02-26T12:48:23,498][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [lang-mustache]
+[2019-02-26T12:48:23,498][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [lang-painless]
+[2019-02-26T12:48:23,498][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [mapper-extras]
+[2019-02-26T12:48:23,498][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [parent-join]
+[2019-02-26T12:48:23,498][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [percolator]
+[2019-02-26T12:48:23,499][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [rank-eval]
+[2019-02-26T12:48:23,499][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [reindex]
+[2019-02-26T12:48:23,499][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [repository-url]
+[2019-02-26T12:48:23,499][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [transport-netty4]
+[2019-02-26T12:48:23,499][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [tribe]
+[2019-02-26T12:48:23,499][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-ccr]
+[2019-02-26T12:48:23,499][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-core]
+[2019-02-26T12:48:23,500][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-deprecation]
+[2019-02-26T12:48:23,500][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-graph]
+[2019-02-26T12:48:23,500][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-logstash]
+[2019-02-26T12:48:23,500][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-ml]
+[2019-02-26T12:48:23,500][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-monitoring]
+[2019-02-26T12:48:23,501][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-rollup]
+[2019-02-26T12:48:23,501][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-security]
+[2019-02-26T12:48:23,501][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-sql]
+[2019-02-26T12:48:23,501][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-upgrade]
+[2019-02-26T12:48:23,501][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-watcher]
+[2019-02-26T12:48:23,502][INFO ][o.e.p.PluginsService     ] [Brain_node_1] no plugins loaded
+[2019-02-26T12:48:26,360][INFO ][o.e.x.s.a.s.FileRolesStore] [Brain_node_1] parsed [0] roles from file [/home/best/Downloads/elasticsearch-6.5.4/config/roles.yml]
+[2019-02-26T12:48:26,720][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [Brain_node_1] [controller/19677] [Main.cc@109] controller (64 bit): Version 6.5.4 (Build b616085ef32393) Copyright (c) 2018 Elasticsearch BV
+[2019-02-26T12:48:27,090][DEBUG][o.e.a.ActionModule       ] [Brain_node_1] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-02-26T12:48:27,305][INFO ][o.e.d.DiscoveryModule    ] [Brain_node_1] using discovery type [zen] and host providers [settings]
+[2019-02-26T12:48:28,056][INFO ][o.e.n.Node               ] [Brain_node_1] initialized
+[2019-02-26T12:48:28,056][INFO ][o.e.n.Node               ] [Brain_node_1] starting ...
+[2019-02-26T12:48:28,235][INFO ][o.e.t.TransportService   ] [Brain_node_1] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-02-26T12:48:31,360][INFO ][o.e.c.s.MasterService    ] [Brain_node_1] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {Brain_node_1}{l1FT7zEGS961eHlvQ7BXDQ}{vu5URLR7TpiQRaJ01s2GNA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8242008064, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-02-26T12:48:31,366][INFO ][o.e.c.s.ClusterApplierService] [Brain_node_1] new_master {Brain_node_1}{l1FT7zEGS961eHlvQ7BXDQ}{vu5URLR7TpiQRaJ01s2GNA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8242008064, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {Brain_node_1}{l1FT7zEGS961eHlvQ7BXDQ}{vu5URLR7TpiQRaJ01s2GNA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8242008064, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-02-26T12:48:31,439][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [Brain_node_1] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-02-26T12:48:31,439][INFO ][o.e.n.Node               ] [Brain_node_1] started
+[2019-02-26T12:48:32,052][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [Brain_node_1] Failed to clear cache for realms [[]]
+[2019-02-26T12:48:32,101][INFO ][o.e.l.LicenseService     ] [Brain_node_1] license [1c689fcd-9813-490e-aed1-1f2e575ca845] mode [basic] - valid
+[2019-02-26T12:48:32,112][INFO ][o.e.g.GatewayService     ] [Brain_node_1] recovered [10] indices into cluster_state
+[2019-02-26T12:48:33,731][INFO ][o.e.c.r.a.AllocationService] [Brain_node_1] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2019.01.07][3]] ...]).
+[2019-02-26T12:49:47,227][INFO ][o.e.c.m.MetaDataMappingService] [Brain_node_1] [logstash-2019.02.26/SxeRsxrhTOuWB10B5DrLfA] update_mapping [fluentd]
+[2019-02-26T12:59:15,126][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][2], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=J63zSainTLaHH2ak2A-9pg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139155102","to":"1551160755103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T12:59:15,126][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][0], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=msNAwD99QZiZRTsjcyFvnw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139155102","to":"1551160755103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T12:59:15,126][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][3], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=KwNkI8YIQSGqDCgF_NiIpw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139155102","to":"1551160755103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T12:59:15,126][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][4], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=FC_ZRMtaRsKrCu9lIVZzNg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139155102","to":"1551160755103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T12:59:15,126][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][1], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=OoGTq5NBTW2_wnnh1d4VbA]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139155102","to":"1551160755103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T12:59:20,113][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][0], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=msNAwD99QZiZRTsjcyFvnw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139160103","to":"1551160760103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T12:59:20,114][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][1], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=OoGTq5NBTW2_wnnh1d4VbA]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139160103","to":"1551160760103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T12:59:20,114][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][3], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=KwNkI8YIQSGqDCgF_NiIpw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139160103","to":"1551160760103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T12:59:20,114][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][2], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=J63zSainTLaHH2ak2A-9pg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139160103","to":"1551160760103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T12:59:20,115][DEBUG][o.e.a.s.TransportSearchAction] [Brain_node_1] [logstash-2019.02.26][4], node[l1FT7zEGS961eHlvQ7BXDQ], [P], s[STARTED], a[id=FC_ZRMtaRsKrCu9lIVZzNg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[*], indicesOptions=IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false], types=[], routing='null', preference='null', requestCache=null, scroll=null, maxConcurrentShardRequests=5, batchedReduceSize=512, preFilterShardSize=64, allowPartialSearchResults=true, source={"size":500,"query":{"bool":{"must":[{"match_phrase":{"_type":{"query":"fluentd","slop":0,"zero_terms_query":"NONE","boost":1.0}}}],"filter":[{"range":{"@timestamp":{"from":"1551139160103","to":"1551160760103","include_lower":true,"include_upper":true,"format":"epoch_millis","boost":1.0}}},{"query_string":{"query":"_type:fluentd AND container_name:","fields":[],"type":"best_fields","default_operator":"or","max_determinized_states":10000,"enable_position_increments":true,"fuzziness":"AUTO","fuzzy_prefix_length":0,"fuzzy_max_expansions":50,"phrase_slop":0,"analyze_wildcard":true,"escape":false,"auto_generate_synonyms_phrase_query":true,"fuzzy_transpositions":true,"boost":1.0}}],"adjust_pure_negative":true,"boost":1.0}},"docvalue_fields":[{"field":"@timestamp"}],"script_fields":{},"sort":[{"@timestamp":{"order":"desc","unmapped_type":"boolean"}}]}}]
+org.elasticsearch.transport.RemoteTransportException: [Brain_node_1][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: org.elasticsearch.index.query.QueryShardException: Failed to parse query [_type:fluentd AND container_name:]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1044) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '_type:fluentd AND container_name:': Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:114) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) [elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered "<EOF>" at line 1, column 33.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:931) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:813) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:373) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:303) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:215) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:109) ~[lucene-queryparser-7.5.0.jar:7.5.0 b5bf70b7e32d7ddd9742cc821d471c5fabd4e3df - jimczi - 2018-09-18 13:02:23]
+	at org.elasticsearch.index.search.QueryStringQueryParser.parse(QueryStringQueryParser.java:796) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryStringQueryBuilder.doToQuery(QueryStringQueryBuilder.java:1042) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toFilter(AbstractQueryBuilder.java:126) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.addBooleanClauses(BoolQueryBuilder.java:408) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.BoolQueryBuilder.doToQuery(BoolQueryBuilder.java:381) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.AbstractQueryBuilder.toQuery(AbstractQueryBuilder.java:104) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.lambda$toQuery$2(QueryShardContext.java:305) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:317) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.index.query.QueryShardContext.toQuery(QueryShardContext.java:304) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:765) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:616) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:592) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:367) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService.access$100(SearchService.java:121) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:339) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$2.onResponse(SearchService.java:335) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.search.SearchService$4.doRun(SearchService.java:1082) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:723) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.TimedRunnable.doRun(TimedRunnable.java:41) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.5.4.jar:6.5.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_191]
+[2019-02-26T13:13:09,451][INFO ][o.e.x.m.j.p.NativeController] [Brain_node_1] Native controller process has stopped - no new native processes can be started
+[2019-02-26T13:13:09,455][INFO ][o.e.n.Node               ] [Brain_node_1] stopping ...
+[2019-02-26T13:13:09,471][INFO ][o.e.x.w.WatcherService   ] [Brain_node_1] stopping watch service, reason [shutdown initiated]
+[2019-02-26T13:13:10,121][INFO ][o.e.n.Node               ] [Brain_node_1] stopped
+[2019-02-26T13:13:10,122][INFO ][o.e.n.Node               ] [Brain_node_1] closing ...
+[2019-02-26T13:13:10,140][INFO ][o.e.n.Node               ] [Brain_node_1] closed
+[2019-02-26T14:25:39,632][INFO ][o.e.e.NodeEnvironment    ] [Brain_node_1] using [1] data paths, mounts [[/ (/dev/sda6)]], net usable_space [110.1gb], net total_space [147.5gb], types [ext4]
+[2019-02-26T14:25:39,634][INFO ][o.e.e.NodeEnvironment    ] [Brain_node_1] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-02-26T14:25:39,720][INFO ][o.e.n.Node               ] [Brain_node_1] node name [Brain_node_1], node ID [l1FT7zEGS961eHlvQ7BXDQ]
+[2019-02-26T14:25:39,720][INFO ][o.e.n.Node               ] [Brain_node_1] version[6.5.4], pid[29289], build[default/tar/d2ef93d/2018-12-17T21:17:40.758843Z], OS[Linux/4.15.0-45-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-02-26T14:25:39,720][INFO ][o.e.n.Node               ] [Brain_node_1] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.iEgbbvZZ, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/best/Downloads/elasticsearch-6.5.4, -Des.path.conf=/home/best/Downloads/elasticsearch-6.5.4/config, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+[2019-02-26T14:25:41,258][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [aggs-matrix-stats]
+[2019-02-26T14:25:41,259][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [analysis-common]
+[2019-02-26T14:25:41,259][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [ingest-common]
+[2019-02-26T14:25:41,259][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [lang-expression]
+[2019-02-26T14:25:41,259][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [lang-mustache]
+[2019-02-26T14:25:41,259][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [lang-painless]
+[2019-02-26T14:25:41,259][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [mapper-extras]
+[2019-02-26T14:25:41,259][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [parent-join]
+[2019-02-26T14:25:41,259][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [percolator]
+[2019-02-26T14:25:41,260][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [rank-eval]
+[2019-02-26T14:25:41,260][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [reindex]
+[2019-02-26T14:25:41,260][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [repository-url]
+[2019-02-26T14:25:41,260][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [transport-netty4]
+[2019-02-26T14:25:41,260][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [tribe]
+[2019-02-26T14:25:41,260][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-ccr]
+[2019-02-26T14:25:41,260][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-core]
+[2019-02-26T14:25:41,260][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-deprecation]
+[2019-02-26T14:25:41,261][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-graph]
+[2019-02-26T14:25:41,261][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-logstash]
+[2019-02-26T14:25:41,261][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-ml]
+[2019-02-26T14:25:41,261][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-monitoring]
+[2019-02-26T14:25:41,261][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-rollup]
+[2019-02-26T14:25:41,261][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-security]
+[2019-02-26T14:25:41,261][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-sql]
+[2019-02-26T14:25:41,261][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-upgrade]
+[2019-02-26T14:25:41,262][INFO ][o.e.p.PluginsService     ] [Brain_node_1] loaded module [x-pack-watcher]
+[2019-02-26T14:25:41,262][INFO ][o.e.p.PluginsService     ] [Brain_node_1] no plugins loaded
+[2019-02-26T14:25:44,429][INFO ][o.e.x.s.a.s.FileRolesStore] [Brain_node_1] parsed [0] roles from file [/home/best/Downloads/elasticsearch-6.5.4/config/roles.yml]
+[2019-02-26T14:25:45,020][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [Brain_node_1] [controller/29368] [Main.cc@109] controller (64 bit): Version 6.5.4 (Build b616085ef32393) Copyright (c) 2018 Elasticsearch BV
+[2019-02-26T14:25:45,464][DEBUG][o.e.a.ActionModule       ] [Brain_node_1] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-02-26T14:25:45,719][INFO ][o.e.d.DiscoveryModule    ] [Brain_node_1] using discovery type [zen] and host providers [settings]
+[2019-02-26T14:25:46,517][INFO ][o.e.n.Node               ] [Brain_node_1] initialized
+[2019-02-26T14:25:46,517][INFO ][o.e.n.Node               ] [Brain_node_1] starting ...
+[2019-02-26T14:25:46,679][INFO ][o.e.t.TransportService   ] [Brain_node_1] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-02-26T14:25:49,827][INFO ][o.e.c.s.MasterService    ] [Brain_node_1] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {Brain_node_1}{l1FT7zEGS961eHlvQ7BXDQ}{ENutC1qYQnuiKMKx_Po_Mg}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8242008064, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-02-26T14:25:49,831][INFO ][o.e.c.s.ClusterApplierService] [Brain_node_1] new_master {Brain_node_1}{l1FT7zEGS961eHlvQ7BXDQ}{ENutC1qYQnuiKMKx_Po_Mg}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8242008064, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {Brain_node_1}{l1FT7zEGS961eHlvQ7BXDQ}{ENutC1qYQnuiKMKx_Po_Mg}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8242008064, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-02-26T14:25:49,857][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [Brain_node_1] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-02-26T14:25:49,857][INFO ][o.e.n.Node               ] [Brain_node_1] started
+[2019-02-26T14:25:50,547][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [Brain_node_1] Failed to clear cache for realms [[]]
+[2019-02-26T14:25:50,617][INFO ][o.e.l.LicenseService     ] [Brain_node_1] license [1c689fcd-9813-490e-aed1-1f2e575ca845] mode [basic] - valid
+[2019-02-26T14:25:50,630][INFO ][o.e.g.GatewayService     ] [Brain_node_1] recovered [10] indices into cluster_state
+[2019-02-26T14:25:53,090][INFO ][o.e.c.r.a.AllocationService] [Brain_node_1] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[logstash-2019.01.07][3], [logstash-2019.01.07][4], [.kibana_1][0]] ...]).
+[2019-02-26T15:37:28,572][INFO ][o.e.c.m.MetaDataMappingService] [Brain_node_1] [logstash-2019.02.26/SxeRsxrhTOuWB10B5DrLfA] update_mapping [fluentd]
+[2019-02-26T15:37:28,622][INFO ][o.e.c.m.MetaDataMappingService] [Brain_node_1] [logstash-2019.02.26/SxeRsxrhTOuWB10B5DrLfA] update_mapping [fluentd]
+[2019-02-26T17:05:18,120][INFO ][o.e.x.m.j.p.NativeController] [Brain_node_1] Native controller process has stopped - no new native processes can be started
+[2019-02-26T17:05:18,130][INFO ][o.e.n.Node               ] [Brain_node_1] stopping ...
+[2019-02-26T17:05:18,182][INFO ][o.e.x.w.WatcherService   ] [Brain_node_1] stopping watch service, reason [shutdown initiated]
+[2019-02-26T17:05:18,347][INFO ][o.e.n.Node               ] [Brain_node_1] stopped
+[2019-02-26T17:05:18,347][INFO ][o.e.n.Node               ] [Brain_node_1] closing ...
+[2019-02-26T17:05:18,357][INFO ][o.e.n.Node               ] [Brain_node_1] closed
